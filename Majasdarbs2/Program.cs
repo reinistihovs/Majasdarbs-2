@@ -104,7 +104,7 @@ namespace Majasdarbs2
             Console.WriteLine("////////////////////////////");
             Console.WriteLine("Lūdzu ievadiet vinādsāna trijstūra malas garmumu!");
             float TriangleSide = float.Parse(Console.ReadLine());
-            double TriangleArea = (((float)Math.Sqrt(3) / 4) * TriangleSide * TriangleSide);
+            float TriangleArea = (((float)Math.Sqrt(3) / 4) * TriangleSide * TriangleSide);
             Console.WriteLine($"\n\nAprēķinātais vienādsānu trijstūra laukums ir: {TriangleArea}!\n \n");
             Console.WriteLine("Nospied jebkuru taustiņu, lai turpinātu");
             Console.ReadKey();
