@@ -6,8 +6,9 @@ namespace Majasdarbs2
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Labdien, kā tevi sauc?");
+            string vards = Console.ReadLine();
+            Console.WriteLine("Labdien {0}", vards);
         }
     }
 }
